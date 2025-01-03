@@ -15,6 +15,7 @@ const HomeScreen = (props) => {
     const { navigation } = props;
 
     const [recommended, setRecommended] = useState([]);
+    
 
     const [mostViewed, setMostViewed] = useState([]);
 
